@@ -1,0 +1,53 @@
+ul {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #ababab;
+}
+a:hover {
+  color: #31aae2;
+}
+
+.top-contact li {
+  display: inline;
+  padding-right: 25px;
+  font-size: 12px;
+}
+.top-block {
+  padding:  15px 0;
+}
+.top-background {
+  background: #192330;
+  color: #ababab;
+}
+.social-icons {
+  float: right;
+}
+.social-icons a {
+  margin-left: 16px;
+}
+.top-contact {
+  padding-left: 0;
+}
+.row div {
+  border: 1px solid black;
+}
+.block-menu {
+  padding:  45px 0;
+}
+@media (max-width: 756px) {
+  .top-contact li {
+    display: block;
+  }
+
+  .social-icons {
+    float: none;
+    margin-top: 10px;
+  }
+
+  .social-icons a {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+}
