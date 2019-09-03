@@ -64,9 +64,8 @@ a.top-home {
   background-image: url(img/background.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 1440px;
-  height: 616px;
   color: #fff;
+  position: relative;
 }
 
 .no-visible {
@@ -86,6 +85,18 @@ a.top-home {
 .top-fon-p-margin-top {
   margin-bottom: 70px;
   font-size: 13px;
+}
+
+.magic-image {
+  visibility: hidden;
+}
+
+.magic-div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 /*
