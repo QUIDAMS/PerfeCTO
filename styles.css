@@ -64,33 +64,29 @@ a.top-home {
   background-image: url(img/background.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 1440px;
+  height: 616px;
+  color: #fff;
 }
 
 .no-visible {
   visibility: hidden;
 }
 
-.top-fon-text {
-  color: #ffffff;
-  /*margin-left: 25%;
-  width: 100%;*/
-  flex-shrink: 0;
-  flex-grow: 1;
-
+.button {
+	background: transparent;
+	color: white;
+  padding: 20px 35px;
+  font-size: 13px;
+  display: inline-block;
+  border: 1px solid white;
+	text-align: center;
 }
 
-.flex {
-  display: flex;
-}
-.flex-vertical-center {
-  align-items: center;
-}
-.top-fon-text p {
+.top-fon-p-margin-top {
+  margin-bottom: 70px;
   font-size: 13px;
 }
-
-
-
 
 /*
 
