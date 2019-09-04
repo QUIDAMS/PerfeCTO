@@ -130,9 +130,18 @@ a.top-home {
   margin-left: 0;
 }
 .badge {
-
-  display: block; /* Блочный элемент (для старых браузеров) */
-    text-align: center; /* Выравнивание по центру
+  display: block;
+    text-align: center;
+}
+.gray {
+  background:#fafafa;
+}
+.text-center h5 {
+  padding-bottom: 5%;
+  font-size: 20px;
+}
+.text-center p {
+  font-size: 13px;
 }
 /* .design-logo {
 margin:  120px 0 120px 150px;
