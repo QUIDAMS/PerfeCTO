@@ -98,52 +98,40 @@ a.top-home {
   top: 0;
   bottom: 0;
 }
-
-/*
-
-.flex {
-           display: flex;
-       }
-       .flex-center {
-           align-items: center;
-           justify-content: center;
-           flex-direction: column;
-       }
-       .flex-vertical-center {
-           align-items: center;
-       }
-       .flex-horizontal-center {
-           justify-content: center;
-       }
-       .align-left {
-           text-align: left;
-       }
-       .align-right {
-           text-align: right;
-       }
-       .align-center {
-           text-align: center;
-       }
-       header {
-           width: 100%;
-           min-height: 80px;
-           margin: 5px 0 20px 0;
-           background-color: white;
-       }
-       .navbar {
-           width: 100%;
-       }
-       .navbar li {
-           list-style-type: none;
-           display: inline-block;
-       }
-       .navbar a {
-           text-decoration: none;
-           color: black;
-           font-size: 1.5em;
-           padding: 3px 5px;
-       } */
-
+.design {
+  width: 1437px;
+  height: 613px;
+  border: 5px solid red;
+}
+.design-logo {
+  background: pink;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  border: 5px solid black;
+  padding: 100px 0 100px 50px;
+}
+.design-text h1 {
+  font-size: 35px;
+  color: #444;
+  text-align: center;
+}
+.design-text strong {
+  color: #009688;
+}
+.design-text  {
+  text-align: center;
+  color: #a7a7a7;
+  font-size: 13px;
+}
+.design-text {
+  padding: 130px;
+  
+}
+/* .design-logo {
+margin:  120px 0 120px 150px;
+} */
 
 @media (max-width: 756px) {
   .top-contact li {
