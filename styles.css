@@ -143,6 +143,50 @@ a.top-home {
 .text-center p {
   font-size: 13px;
 }
+.service-border {
+border-top:  1px solid #ededed;
+border-bottom:   1px solid #ededed;
+}
+.text-center h1 {
+  font-size: 30px;
+}
+.button-link {
+  background: transparent;
+	color: #808080;
+  padding: 15px 20px;
+  font-size: 13px;
+  display: inline-block;
+  border: 1px solid #e3e3e3;
+	text-align: center;
+}
+.botton-link-menu {
+  background: #07877b;
+}
+.button-block li {
+  display: inline;
+}
+.menu-button img {
+  background: #07877b;
+}
+.button-block a:hover {
+  color: #07877b;
+}
+.complated {
+  margin-top: 130px;
+}
+
+
+
+.my-brand-new-container {
+   width: 1515px;
+   margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+    my-brand-new-container {
+        width: 1300px;
+    }
+}
 /* .design-logo {
 margin:  120px 0 120px 150px;
 } */
