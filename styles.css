@@ -174,8 +174,46 @@ border-bottom:   1px solid #ededed;
 .complated {
   margin-top: 130px;
 }
+.history {
+  background-image: url(img/background-white.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #444;
+  position: relative;
+}
+.history-text h1{
+  font-size: 30px;
+}
+.history-text p {
+  font-size: 14px;
+  color: #808080;
+}
+.options h6 {
+  font-size: 18px;
+  color: #444;
+}
+.options p {
+  font-size: 14px;
+  color: #808080;
+}
+/* .black {
+  background: #292929;
+} */
+.block-question-text h3 {
+  color: #fdfdfd;
+  font-size: 30px;
+}
+.block-question-text p {
+  color: #fdfdfd;
+  font-size: 13px;
+}
 
 
+.question-block {
+background: #292929;
+color: #fdfdfd;
+position: relative;
+}
 
 .my-brand-new-container {
    width: 1515px;
