@@ -196,9 +196,6 @@ border-bottom:   1px solid #ededed;
   font-size: 14px;
   color: #808080;
 }
-/* .black {
-  background: #292929;
-} */
 .block-question-text h3 {
   color: #fdfdfd;
   font-size: 30px;
@@ -207,17 +204,36 @@ border-bottom:   1px solid #ededed;
   color: #fdfdfd;
   font-size: 13px;
 }
-
-
 .question-block {
 background: #292929;
 color: #fdfdfd;
 position: relative;
 }
-
 .my-brand-new-container {
    width: 1515px;
    margin: 0 auto;
+}
+.text-center h1 span {
+  color: #009688;
+}
+.block-social-icons {
+  background: #049285;
+  padding-top:  7% ;
+  padding-bottom: 7%;
+  padding-left: 9%;
+  padding-right: 12%;
+}
+.block-social-icons a {
+  color: #ffffff;
+}
+.block-for-progressbar {
+  background: white;
+	color: #757575;
+  padding: 5px 5px;
+  font-size: 16px;
+}
+a:hover {
+  color: #31aae2;
 }
 
 @media (max-width: 1440px) {
