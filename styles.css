@@ -300,7 +300,24 @@ border-bottom: 1px solid #f0f0f0;
 .packages-price sup {
   font-size: 20px;
 }
+.latest-block {
+height: 750px;
+width: 1437px;
+background: white;
+}
+.latest-block h2 {
+  color: #444;
+}
 
+.latest-text h4 {
+  color: #444;
+}
+.latest-text p {
+  color: #8c8c8c;
+}
+p.latest-text-color {
+  color: #039285;
+}
 @media (max-width: 1440px) {
     my-brand-new-container {
         width: 1300px;
