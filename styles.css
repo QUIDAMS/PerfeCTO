@@ -251,6 +251,55 @@ a:hover {
   background: pink;
   z-index: 10;
 }
+.price-block {
+  background-image: url(img/backgroundroom.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+}
+.packages-price {
+  background: #313131;
+}
+.packages-services {
+  background: white;
+  color: #808080;
+  font-size: 13px;
+}
+.button-buy {
+  background: #262626;
+  color: #fff;
+  padding: 5% 30% 5% 36%;
+  margin: 5px 0px;
+  display: inline-block;
+  font-size: 13px;
+}
+.button-buy2 {
+  background: #009688;
+  color: #fff;
+  padding: 5% 30% 5% 36%;
+  margin: 5px 0px;
+  display: inline-block;
+  font-size: 13px;
+}
+.packages-services-border {
+border-bottom: 1px solid #f0f0f0;
+}
+.color-price {
+  color: #009688;
+  font-size: 40px;
+}
+.no-color-price {
+  font-size: 40px;
+  color: #ffffff;
+
+}
+.packages-price sub {
+  font-size: 10px;
+}
+.packages-price sup {
+  font-size: 20px;
+}
 
 @media (max-width: 1440px) {
     my-brand-new-container {
