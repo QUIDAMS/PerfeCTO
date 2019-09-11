@@ -315,7 +315,7 @@ background: white;
 .latest-text p {
   color: #8c8c8c;
 }
-p.latest-text-color {
+a.latest-text-color {
   color: #039285;
 }
 @media (max-width: 1440px) {
