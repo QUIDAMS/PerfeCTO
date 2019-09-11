@@ -257,6 +257,7 @@ a:hover {
   background-repeat: no-repeat;
   color: #fff;
   position: relative;
+  width: 100%;
 }
 .packages-price {
   background: #313131;
@@ -317,6 +318,37 @@ background: white;
 }
 a.latest-text-color {
   color: #039285;
+}
+.contact-block {
+  background: #f0f0f0;
+}
+.contact-us {
+background: #ebebeb;
+border: 1px solid #dedede;
+padding-top: 25px;
+padding-left: 30px;
+padding-bottom: 25px;
+border-radius: 0px;
+font-size: 14px;
+color: #808080;
+}
+.contact-us-massage {
+background: #ebebeb;
+border: 1px solid #dedede;
+padding-top: 25px;
+padding-left: 30px;
+padding-bottom: 400px;
+border-radius: 0px;
+font-size: 14px;
+color: #808080;
+}
+.button-send {
+background: #039285;
+color: #f0f0f0;
+padding: 1% 49% 1% 48%;
+margin: 5px 0px;
+display: inline-block;
+font-size: 14px;
 }
 @media (max-width: 1440px) {
     my-brand-new-container {
