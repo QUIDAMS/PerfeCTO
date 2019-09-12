@@ -17,10 +17,20 @@ a:hover {
 .top-background {
   background: #192330;
   color: #ababab;
+  height: 100%;
+  width: 100%;
 }
 .social-icons {
   float: right;
 }
+
+.social-icons-2 i {
+  padding: 23px 7px;
+}
+.options img {
+  width: 100%;
+}
+
 .social-icons a {
   margin-left: 16px;
 }
@@ -66,6 +76,8 @@ a.top-home {
   background-repeat: no-repeat;
   color: #fff;
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .no-visible {
@@ -107,9 +119,17 @@ a.top-home {
   background-repeat: no-repeat;
   color: #fff;
   position: relative;
-  /* border: 5px solid black; */
-  padding: 5% 0 5% 4%;
+  padding-top: 100px;
 }
+
+.project-grid-margin-bottom {
+  margin-bottom: 29px;
+}
+
+.history-padding {
+  padding: 137px 0;
+}
+
 .design-text h1 {
   font-size: 35px;
   color: #444;
@@ -123,15 +143,16 @@ a.top-home {
   text-align: center;
   color: #a7a7a7;
   font-size: 13px;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 .design-text {
-  margin-top: 35%;
+  /* margin-top: 35%; */
   margin-left: 0;
 }
-.badge {
-display: block;
-text-align: center;
+.veronika-badge {
+  display: block;
+  text-align: center;
+  margin-bottom: 0px;
 }
 .gray {
   background:#fafafa;
@@ -180,6 +201,8 @@ border-bottom:   1px solid #ededed;
   background-repeat: no-repeat;
   color: #444;
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 .history-text h1{
   font-size: 30px;
@@ -205,9 +228,10 @@ border-bottom:   1px solid #ededed;
   font-size: 13px;
 }
 .question-block {
-background: #292929;
-color: #fdfdfd;
-position: relative;
+  background: #292929;
+  color: #fdfdfd;
+  position: relative;
+  padding: 92px 0;
 }
 .my-brand-new-container {
    width: 1515px;
@@ -218,10 +242,12 @@ position: relative;
 }
 .block-social-icons {
   background: #049285;
-  padding-top:  7% ;
+  /* padding: 23px 7px; */
+  width: 100%;
+  /* padding-top:  7% ;
   padding-bottom: 7%;
   padding-left: 9%;
-  padding-right: 12%;
+  padding-right: 12%; */
 }
 .block-social-icons a {
   color: #ffffff;
@@ -253,11 +279,12 @@ a:hover {
 }
 .price-block {
   background-image: url(img/backgroundroom.png);
-  background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
   color: #fff;
   position: relative;
   width: 100%;
+  height: 100%;
 }
 .packages-price {
   background: #313131;
@@ -302,10 +329,9 @@ border-bottom: 1px solid #f0f0f0;
   font-size: 20px;
 }
 .latest-block {
-height: 750px;
-width: 1437px;
-background: white;
+  background: white;
 }
+
 .latest-block h2 {
   color: #444;
 }
@@ -323,48 +349,51 @@ a.latest-text-color {
   background: #f0f0f0;
 }
 .contact-us {
-background: #ebebeb;
-border: 1px solid #dedede;
-padding-top: 25px;
-padding-left: 30px;
-padding-bottom: 25px;
-border-radius: 0px;
-font-size: 14px;
-color: #808080;
+  background: #ebebeb;
+  border: 1px solid #dedede;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  border-radius: 0px;
+  font-size: 14px;
+  color: #808080;
 }
 .contact-us-massage {
-background: #ebebeb;
-border: 1px solid #dedede;
-padding-top: 25px;
-padding-left: 30px;
-padding-bottom: 400px;
-border-radius: 0px;
-font-size: 14px;
-color: #808080;
+  background: #ebebeb;
+  border: 1px solid #dedede;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-bottom: 400px;
+  border-radius: 0px;
+  font-size: 14px;
+  color: #808080;
 }
 .button-send {
-background: #039285;
-color: #f0f0f0;
-padding: 1% 49% 1% 48%;
-margin: 5px 0px;
-display: inline-block;
-font-size: 14px;
+  background: #039285;
+  color: #f0f0f0;
+  padding: 1% 0;
+  width: 100%;
+  margin: 5px 0px;
+  display: inline-block;
+  font-size: 14px;
 }
 .locate-block {
-background-image: url(img/background-footer.png);
-background-size: 100%;
-background-repeat: no-repeat;
-color: #fff;
-position: relative;
+  background-image: url(img/background-footer.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 .footer-block {
-background-image: url(img/background-footer2.png);
-background-size: 100%;
-background-repeat: no-repeat;
-color: #fff;
-position: relative;
-width: 100%;
-height: 300px;
+  background-image: url(img/background-footer2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  height: 300px;
 }
 .footer-icons li {
   display: inline;
@@ -405,10 +434,23 @@ a.footer-home {
 
 }
 
-@media (max-width: 1440px) {
-    my-brand-new-container {
-        width: 1300px;
-    }
+@media (min-width: 1200px) {
+  .design-logo {
+    background: url(img/design2.png);
+  }
+}
+@media (max-width: 992px) {
+  .footer-block {
+    background: #192330;
+  }
+}
+@media (max-width: 1200px) {
+  .price-block {
+    background: none;
+  }
+  .packages-top {
+    border: 1px solid #ddd;
+  }
 }
 /* .design-logo {
 margin:  120px 0 120px 150px;
