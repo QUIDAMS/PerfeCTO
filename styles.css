@@ -130,8 +130,8 @@ a.top-home {
   margin-left: 0;
 }
 .badge {
-  display: block;
-    text-align: center;
+display: block;
+text-align: center;
 }
 .gray {
   background:#fafafa;
@@ -350,6 +350,61 @@ margin: 5px 0px;
 display: inline-block;
 font-size: 14px;
 }
+.locate-block {
+background-image: url(img/background-footer.png);
+background-size: 100%;
+background-repeat: no-repeat;
+color: #fff;
+position: relative;
+}
+.footer-block {
+background-image: url(img/background-footer2.png);
+background-size: 100%;
+background-repeat: no-repeat;
+color: #fff;
+position: relative;
+width: 100%;
+height: 300px;
+}
+.footer-icons li {
+  display: inline;
+  text-decoration: none;
+  font-size: 16px;
+}
+.border-icons {
+  border-radius: 50%;
+  border: 1px solid #6b6b6b;
+  height: 35px;
+  width: 35px;
+}
+i.footer-in {
+  background:  #0177b5;
+  color: white;
+}
+
+.footer-menu li {
+  display: inline;
+}
+.footer-menu a {
+  color: #444444;
+  font-size: 10px;
+  margin-right: 30px;
+}
+.footer-menu a:hover {
+  color: #03a9f4;
+}
+ul.footer-menu {
+  padding-left: 0;
+}
+a.footer-home {
+  color: #03a9f4;
+}
+.footer-background {
+  height: 100%;
+  width: 100%;
+
+}
+
 @media (max-width: 1440px) {
     my-brand-new-container {
         width: 1300px;
